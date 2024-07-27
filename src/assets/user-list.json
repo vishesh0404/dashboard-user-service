@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "firstName": "Rohit",
+        "lastName": "Sharma",
+        "email": "rohit.sharma@gmail.com",
+        "dob": "1980-04-11",
+        "gender": "male",
+        "education": "Post Graduate"
+    },
+    {
+        "id": 2,
+        "firstName": "Virat",
+        "lastName": "Kohli",
+        "email": "virat.kohli@gmail.com",
+        "dob": "1984-06-24",
+        "gender": "male",
+        "education": "Graduate"
+    },
+    {
+        "id": 3,
+        "firstName": "Rahul",
+        "lastName": "Verma",
+        "email": "rahul.verma@gmail.com",
+        "dob": "1982-02-27",
+        "gender": "male",
+        "education": "Graduate"
+    },
+    {
+        "id": 4,
+        "firstName": "Harmanpreet",
+        "lastName": "Kaur",
+        "email": "harmanpreet.kaur@gmail.com",
+        "dob": "1986-08-09",
+        "gender": "female",
+        "education": "Intermediate"
+    },
+    {
+        "id": 5,
+        "firstName": "Shweta",
+        "lastName": "Sehrawat",
+        "email": "shweta.sehrawat@gmail.com",
+        "dob": "1987-06-20",
+        "gender": "female",
+        "education": "Intermediate"
+    },
+    {
+        "id": 9,
+        "firstName": "Smriti",
+        "lastName": "Mandhana",
+        "email": "smriti.mandhana@gmail.com",
+        "dob": "1985-08-27",
+        "gender": "female",
+        "education": "Intermediate"
+    }
+]

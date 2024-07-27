@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <!-- <mat-icon>more_vert</mat-icon> -->
+        <svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+        </svg>
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/dashboard">
+            <mat-icon><span class="material-icons"> dashboard </span></mat-icon>
+            <span>Dashboard</span>
+        </button>
+        <button mat-menu-item routerLink="/users">
+            <mat-icon><span class="material-icons"> person_outline </span></mat-icon>
+            <span>Users</span>
+        </button>
+    </mat-menu>
+    <span></span>
+    <span> {{ selectedRoute }} </span>
+    <span class="example-spacer"></span>
+</mat-toolbar>  
+
